@@ -1,0 +1,3 @@
+Install-Module -Name ExchangeOnlineManagement
+import-module exchangeonlinemanagement
+connect-exchangeonline -userprincipalname
