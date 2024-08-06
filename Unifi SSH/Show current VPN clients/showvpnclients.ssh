@@ -1,0 +1,5 @@
+show vpn remote-access
+#this will give you the number of currently connected VPN clients
+
+restart vpn
+#optoinal if there are VPN issues, can restart service specifically without rebooting gateway which would disrupt office internet access.
