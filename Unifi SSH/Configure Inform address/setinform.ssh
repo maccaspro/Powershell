@@ -1,0 +1,2 @@
+set-inform http://urlofcontroller.co.uk:8080/inform
+#can be set using URL or IP address, must include port and correct protocol (http/https)
