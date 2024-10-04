@@ -1,5 +1,5 @@
-# Set path
-$FolderPath = Get-ChildItem -Directory -path "\\mtcentserver\sysvol\Database" -Recurse -Force
+v# Set path
+$FolderPath = Get-ChildItem -Directory -path "\\server\share" -Recurse -Force
 
 $Output = @()
 
