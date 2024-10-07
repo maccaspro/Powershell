@@ -1,5 +1,6 @@
-v# Set path
-$FolderPath = Get-ChildItem -Directory -LiteralPath "\\server\share" -Recurse -Force
+install-module PSAlphaFS
+# Set path
+$FolderPath = Get-LongChildItem -Directory -Path "\\server\share" -Recurse
 
 $Output = @()
 
