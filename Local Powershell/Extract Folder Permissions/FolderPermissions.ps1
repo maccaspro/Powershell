@@ -1,5 +1,5 @@
 v# Set path
-$FolderPath = Get-ChildItem -Directory -path "\\server\share" -Recurse -Force
+$FolderPath = Get-ChildItem -Directory -LiteralPath "\\server\share" -Recurse -Force
 
 $Output = @()
 
