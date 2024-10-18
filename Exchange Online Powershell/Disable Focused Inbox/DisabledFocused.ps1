@@ -1,0 +1,1 @@
+Set-OrganizationConfig -FocusedInboxOn $false
