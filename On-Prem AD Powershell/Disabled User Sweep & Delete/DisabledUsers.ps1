@@ -1,6 +1,6 @@
 $ADAttribute = 'facsimileTelephoneNumber'
 $MaxAge = 31
-$DisabledOU = 'OU=Users,OU=Disabled Accounts,DC=mtcedom,DC=multimatic,DC=com'
+$DisabledOU = 'OU=orgunit,DC=domain'
 
 function Set-DisabledUserTimeStamp {
     param (
