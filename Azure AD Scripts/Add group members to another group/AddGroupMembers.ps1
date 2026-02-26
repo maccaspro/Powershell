@@ -5,7 +5,7 @@ $GroupNames = @("Group1","Group2","Group3","Group4")
 $DestGroup = (Get-AzureADGroup -SearchString "NewGroup1").objectID
 
 foreach($GroupName in $GroupNames){
-    $userIDs = Get-AzureADGroupMember -ObjectId (Get-AzureADGroup -SearchString $GroupName -all $true).ObjectID|select -ExpandProperty ObjectID
+    $userIDs = Get-AzureADGroupMember -ObjectId (Get-AzureADGroup -SearchString $GroupName -all $true).ObjectID|Select-Object -ExpandProperty ObjectID
 
     ForEach($UserID in $UserIDs){
         Try{
